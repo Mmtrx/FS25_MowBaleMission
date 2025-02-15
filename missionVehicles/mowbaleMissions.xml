@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--=====================================================================================================
+	FS22_LimeMission mission vehicles 
+	Purpose:    provide loan vehicles for ingame lime contracts 
+	Author:     Mmtrx       
+	Changelog:
+	v1.0.0.0    15.02.2025  initial port from FS22
+======================================================================================================-->
+<missionVehicles overwrite="false">
+	<variants/>
+	<mission type="mowbaleMission">
+		<group size="small" variant="HAY">
+			<vehicle filename="$data/vehicles/fendt/vario300/vario300.xml" > <!-- tractor -->
+				<configuration name="motor" id="4"/>
+				<configuration name="design" id="2"/>
+			</vehicle>
+			<vehicle filename="$data/vehicles/samasz/xt390/xt390.xml" /> <!-- mower -->
+			<vehicle filename="$data/vehicles/poettinger/alpinHit44/alpinHit44.xml" /> <!-- tedder -->
+			<vehicle filename="$data/vehicles/kuhn/ga4731/ga4731.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/goeweil/g1F125/g1F125.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/fliegl/butterfly/butterfly.xml" /> <!-- flatbed -->
+			<vehicle filename="$data/vehicles/fliegl/butterfly/butterfly.xml" /> <!-- flatbed -->
+		</group>
+		<group size="small" variant="HAY">
+			<vehicle filename="$data/vehicles/zetor/crystal/crystal.xml" /> <!-- tractor -->
+			<vehicle filename="$data/vehicles/samasz/xt390/xt390.xml" /> <!-- mower -->
+			<vehicle filename="$data/vehicles/krone/vendroKW820Highland/vendroKW820Highland.xml" /> <!-- tedder -->
+			<vehicle filename="$data/vehicles/samasz/z2840/z2840.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/kuhn/vb3190/vb3190.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/fliegl/butterfly/butterfly.xml" /> <!-- flatbed -->
+			<vehicle filename="$data/vehicles/fliegl/butterfly/butterfly.xml" /> <!-- flatbed -->
+		</group>
+
+		<group size="medium" variant="HAY">
+			<vehicle filename="$data/vehicles/deutzFahr/series7/series7.xml"/>
+			<vehicle filename="$data/vehicles/caseIH/magnumT4B/magnumT4B.xml" /> <!-- tractor -->
+			<vehicle filename="$data/vehicles/samasz/kdf341S/kdf341S.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/samasz/kdd941STH/kdd941STH.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/krone/vendroKW820Highland/vendroKW820Highland.xml" /> <!-- tedder -->
+			<vehicle filename="$data/vehicles/krone/swadroTS970/swadroTS970.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/vermeer/zr5/zr5.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/andersonGroup/rbm2000/rbm2000.xml" /> <!-- flatbed -->
+		</group>
+		<group size="medium" variant="HAY">
+			<vehicle filename="$data/vehicles/fendt/vario500/vario500.xml" >
+				<configuration name="motor" id="4"/>
+			</vehicle> <!-- tractor -->
+			<vehicle filename="$data/vehicles/samasz/kdf341S/kdf341S.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/samasz/kdd941STH/kdd941STH.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/krone/vendroKW820Highland/vendroKW820Highland.xml" /> <!-- tedder -->
+			<vehicle filename="$data/vehicles/krone/swadroTS970/swadroTS970.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/claas/quadrant5300/quadrant5300.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/arcusin/fsx6372/fsx6372.xml" /> <!-- flatbed -->
+		</group>
+		<group size="medium" variant="HAY">
+			<vehicle filename="$data/vehicles/fendt/vario900/vario900.xml" /> <!-- tractor -->
+			<vehicle filename="$data/vehicles/krone/bigM450/bigM450.xml" /> <!-- mower -->
+			<vehicle filename="$data/vehicles/krone/vendroKW820Highland/vendroKW820Highland.xml" /> <!-- tedder -->
+			<vehicle filename="$data/vehicles/andersonGroup/mergePro915/mergePro915.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/kuhn/sb1290ID/sb1290ID.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/arcusin/fsx6372/fsx6372.xml" /> <!-- flatbed -->
+		</group>
+
+		<group size="large" variant="HAY">
+			<vehicle filename="$data/vehicles/newHolland/t8/t8.xml">
+				<configuration name="motor" id="3"/>
+			</vehicle> <!-- tractor -->
+			<vehicle filename="$data/vehicles/samasz/kdf341S/kdf341S.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/samasz/kdd941STH/kdd941STH.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/poettinger/hit1618T/hit1618T.xml" /> <!-- tedder -->
+			<vehicle filename="$data/vehicles/poettinger/top1403/top1403.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/kuhn/sb1290ID/sb1290ID.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/arcusin/fsx6372/fsx6372.xml" /> <!-- flatbed -->
+		</group>
+		<group size="large" variant="HAY">
+			<vehicle filename="$data/vehicles/johnDeere/series8R/series8R.xml"/> <!-- tractor -->
+			<vehicle filename="$data/vehicles/krone/bigM450/bigM450.xml" /> <!-- mower -->
+			<vehicle filename="$data/vehicles/poettinger/hit1618T/hit1618T.xml" /> <!-- tedder -->
+			<vehicle filename="$data/vehicles/poettinger/top1403/top1403.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/claas/quadrant5300/quadrant5300.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/arcusin/fsx6372/fsx6372.xml" /> <!-- flatbed -->
+		</group>
+		<group size="large" variant="HAY">
+			<vehicle filename="$data/vehicles/johnDeere/series8R/series8R.xml"/> <!-- tractor big -->
+			<vehicle filename="$data/vehicles/fendt/vario300/vario300.xml" > <!-- tractor -->
+				<configuration name="motor" id="4"/>
+				<configuration name="design" id="2"/>
+			</vehicle>
+			<vehicle filename="$data/vehicles/samasz/kdf341S/kdf341S.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/samasz/kdd941STH/kdd941STH.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/poettinger/hit1618T/hit1618T.xml" /> <!-- tedder -->
+			<vehicle filename="$data/vehicles/poettinger/top1403/top1403.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/kuhn/sb1290ID/sb1290ID.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/arcusin/fsx6372/fsx6372.xml" /> <!-- flatbed -->
+		</group>
+
+		<group size="small" variant="SILAGE">
+			<vehicle filename="$data/vehicles/fendt/vario300/vario300.xml" > <!-- tractor -->
+				<configuration name="motor" id="4" />
+			</vehicle>
+			<vehicle filename="$data/vehicles/samasz/xt390/xt390.xml" /> <!-- mower -->
+			<vehicle filename="$data/vehicles/kuhn/ga4731/ga4731.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/goeweil/g1F125/g1F125.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/goeweil/g5020/g5020.xml" /> <!-- wrapper -->
+			<vehicle filename="$data/vehicles/fliegl/butterfly/butterfly.xml" /> <!-- flatbed -->
+			<vehicle filename="$data/vehicles/fliegl/butterfly/butterfly.xml" /> <!-- flatbed -->
+		</group>
+		<group size="small" variant="SILAGE">
+			<vehicle filename="$data/vehicles/valtra/tSeries/tSeries.xml" /> <!-- tractor -->
+			<vehicle filename="$data/vehicles/samasz/xt390/xt390.xml" /> <!-- mower -->
+			<vehicle filename="$data/vehicles/samasz/z2840/z2840.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/kuhn/vb3190/vb3190.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/goeweil/g5020/g5020.xml" /> <!-- wrapper -->
+			<vehicle filename="$data/vehicles/fliegl/butterfly/butterfly.xml" /> <!-- flatbed -->
+			<vehicle filename="$data/vehicles/fliegl/butterfly/butterfly.xml" /> <!-- flatbed -->
+		</group>
+
+		<group size="medium" variant="SILAGE">
+			<vehicle filename="$data/vehicles/caseIH/magnumT4B/magnumT4B.xml" /> <!-- tractor -->
+			<vehicle filename="$data/vehicles/samasz/kdf341S/kdf341S.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/samasz/kdd941STH/kdd941STH.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/andersonGroup/mergePro915/mergePro915.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/claas/quadrant5300/quadrant5300.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/kuhn/sw4014/sw4014.xml" /> <!-- wrapper -->
+			<vehicle filename="$data/vehicles/arcusin/fsx6372/fsx6372.xml" /> <!-- flatbed -->
+		</group>
+		<group size="medium" variant="SILAGE">
+			<vehicle filename="$data/vehicles/valtra/tSeries/tSeries.xml" > <!-- tractor -->
+			<configuration name="motor" id="11" />
+			<configuration name="designColor" id="5" />
+			<configuration name="rimColor" id="2" />
+			</vehicle>
+			<vehicle filename="$data/vehicles/samasz/kdf341S/kdf341S.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/samasz/kdd941STH/kdd941STH.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/andersonGroup/mergePro915/mergePro915.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/claas/quadrant5300/quadrant5300.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/kuhn/sw4014/sw4014.xml" /> <!-- wrapper -->
+			<vehicle filename="$data/vehicles/arcusin/fsx6372/fsx6372.xml" /> <!-- flatbed -->
+		</group>
+		<group size="medium" variant="SILAGE">
+			<vehicle filename="$data/vehicles/fendt/vario900/vario900.xml" /> <!-- tractor -->
+			<vehicle filename="$data/vehicles/krone/bigM450/bigM450.xml" /> <!-- mower -->
+			<vehicle filename="$data/vehicles/poettinger/top1403/top1403.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/johnDeere/c441R/c441R.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/andersonGroup/rbm2000/rbm2000.xml" /> <!-- flatbed -->
+		</group>
+
+		<group size="large" variant="SILAGE">
+			<vehicle filename="$data/vehicles/johnDeere/series8R/series8R.xml"/> <!-- tractor big -->
+			<vehicle filename="$data/vehicles/samasz/kdf341S/kdf341S.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/samasz/kdd941STH/kdd941STH.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/poettinger/top1403/top1403.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/kuhn/sb1290ID/sb1290ID.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/kuhn/sw4014/sw4014.xml" /> <!-- wrapper -->
+			<vehicle filename="$data/vehicles/arcusin/fsx6372/fsx6372.xml" /> <!-- flatbed -->
+		</group>
+		<group size="large" variant="SILAGE">
+			<vehicle filename="$data/vehicles/newHolland/t8/t8.xml">
+				<configuration name="motor" id="3"/>
+			</vehicle> <!-- tractor -->
+			<vehicle filename="$data/vehicles/krone/bigM450/bigM450.xml" /> <!-- mower -->
+			<vehicle filename="$data/vehicles/poettinger/top1403/top1403.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/johnDeere/c441R/c441R.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/andersonGroup/rbm2000/rbm2000.xml" /> <!-- flatbed -->
+		</group>
+		<group size="large" variant="SILAGE">
+			<vehicle filename="$data/vehicles/johnDeere/series8R/series8R.xml"/> <!-- tractor big -->
+			<vehicle filename="$data/vehicles/samasz/kdf341S/kdf341S.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/samasz/kdd941STH/kdd941STH.xml"/> <!-- mower -->
+			<vehicle filename="$data/vehicles/poettinger/top1403/top1403.xml" /> <!-- windrower -->
+			<vehicle filename="$data/vehicles/kuhn/sb1290ID/sb1290ID.xml" /> <!-- baler -->
+			<vehicle filename="$data/vehicles/kuhn/sw4014/sw4014.xml" /> <!-- wrapper -->
+			<vehicle filename="$data/vehicles/arcusin/fsx6372/fsx6372.xml" /> <!-- flatbed -->
+		</group>
+	</mission>
+</missionVehicles>

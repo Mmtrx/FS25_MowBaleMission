@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="94">
+	<author>Mmtrx</author>
+	<version>1.0.0.0</version>
+	<title>
+		<en>Mow Bale Contracts</en>
+		<de>Mäh- Und Press-Aufträge</de>
+		<fr>Contrats De Faucher Et Mise En Balles</fr>
+	</title>
+	<description>
+		<en>
+			<![CDATA[
+Implements combined mowing / baling contracts
+
+]]>
+		</en>
+		<de>
+			<![CDATA[
+Erzeugt Aufträge zum kombinierten Mähen und Ballenpressen
+
+]]>
+		</de>
+		<fr>
+			<![CDATA[
+Génère des tâches pour la fauche et la mise en balles combinées
+
+]]>
+		</fr>
+	</description>
+	<iconFilename>icon_mowbaleMission.dds</iconFilename>
+	<multiplayer supported="true" />
+	<extraSourceFiles>
+		<sourceFile filename="mowbaleMission.lua" />
+	</extraSourceFiles>
+
+	<missionVehicles filename="missionVehicles/mowbaleMissions.xml" />
+
+	<l10n>
+		<text name="contract_field_mowbale_title">
+			<en>Mow &amp; bale</en>
+			<de>Mähen &amp; Pressen</de>
+			<fr>Faucher &amp; mise en balles</fr>
+		</text>
+		<text name="contract_field_mowbale_hay">
+			<en>Mow the grass in the field. Then dry it with a tedder and bale it. Take the bales to the selling station.</en>
+			<de>Mähe das Gras, wende es und presse Heuballen daraus. Liefere die Ballen zur Verkaufsstation</de>
+			<fr>Fauchez l&apos;herbe dans le champ. Ensuite, asséchez-la à l&apos;aide d&apos;une faneuse et mettez-la en balle. Apportez les balles au point de vente indiqué.</fr>
+		</text>
+		<text name="contract_field_mowbale_silage">
+			<en>Mow the grass in the field. Then bale the grass and wrap it to make silage bales. Take the bales to the selling station.</en>
+			<de>Mähe das Gras, presse und wickle Silageballen daraus. Liefere die Ballen zur Verkaufsstation.</de>
+			<fr>Fauchez l&apos;herbe dans le champ. Ensuite, mettez l&apos;herbe en balle et emballez-la pour faire des balles d&apos;ensilage. Apportez les balles au point de vente indiqué.</fr>
+		</text>
+	</l10n>
+</modDesc>
