@@ -6,6 +6,7 @@
 		<en>Mow Bale Contracts</en>
 		<de>Mäh- Und Press-Aufträge</de>
 		<fr>Contrats De Faucher Et Mise En Balles</fr>
+		<pl>Kontrakty na koszenie i transport bel</pl>
 	</title>
 	<description>
 		<en>
@@ -40,16 +41,19 @@ Génère des tâches pour la fauche et la mise en balles combinées
 			<en>Mow &amp; bale</en>
 			<de>Mähen &amp; Pressen</de>
 			<fr>Faucher &amp; mise en balles</fr>
+			<pl>Koszenie &amp; Belowanie</pl>
 		</text>
 		<text name="contract_field_mowbale_hay">
 			<en>Mow the grass in the field. Then dry it with a tedder and bale it. Take the bales to the selling station.</en>
 			<de>Mähe das Gras, wende es und presse Heuballen daraus. Liefere die Ballen zur Verkaufsstation</de>
 			<fr>Fauchez l&apos;herbe dans le champ. Ensuite, asséchez-la à l&apos;aide d&apos;une faneuse et mettez-la en balle. Apportez les balles au point de vente indiqué.</fr>
+			<pl>Skoś trawę na polu. Następnie wysusz ją za pomocą przetrząsacza i zbeluj. Zabierz bele do punktu sprzedaży.</pl>
 		</text>
 		<text name="contract_field_mowbale_silage">
 			<en>Mow the grass in the field. Then bale the grass and wrap it to make silage bales. Take the bales to the selling station.</en>
 			<de>Mähe das Gras, presse und wickle Silageballen daraus. Liefere die Ballen zur Verkaufsstation.</de>
 			<fr>Fauchez l&apos;herbe dans le champ. Ensuite, mettez l&apos;herbe en balle et emballez-la pour faire des balles d&apos;ensilage. Apportez les balles au point de vente indiqué.</fr>
+			<pl>Skoś trawę na polu. Następnie zbeluj i owiń ją w bele kiszonki. Zabierz bele do punktu sprzedaży.</pl>
 		</text>
 	</l10n>
 </modDesc>
