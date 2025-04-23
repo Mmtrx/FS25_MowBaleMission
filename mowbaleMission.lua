@@ -5,12 +5,14 @@
 -- Author:      Mmtrx
 -- Changelog:
 --  v1.0.0.0    15.02.2025  initial port from FS22
+--  v1.0.0.1    18.04.2025  add ru, cz transl. 
+--  v1.0.0.2    23.04.2025  #5 fix save when mission finished (no sellingStation) 
 --=======================================================================================================
 MowbaleMission = {
 	NAME = "mowbaleMission",
 	REWARD_PER_HA = 3000,
 	REIMBURSEMENT_PER_HA = 2020, 
-	debug = true,
+	debug = false,
 }
 function debugPrint(text, ...)
 	if MowbaleMission.debug == true then
@@ -95,22 +97,23 @@ function MowbaleMission:saveToXMLFile(xmlFile, key)
 		g_fillTypeManager.fillTypes[self.fillTypeIndex].name)
 	xmlFile:setValue(hKey .. "#expectedLiters", self.expectedLiters)
 	xmlFile:setValue(hKey .. "#depositedLiters", self.depositedLiters)
-	local placeable = self.sellingStation.owningPlaceable
-	if placeable == nil then
-		local v34 = self.sellingStation.getName and self.sellingStation:getName() or "unknown"
-		Logging.xmlWarning(xmlFile, "Unable to retrieve placeable of sellingStation \'%s\' for saving mowbale mission \'%s\' ", v34, key)
-		return
-	else
+	if self.sellingStation ~= nil then 
+		local placeable = self.sellingStation.owningPlaceable 
+		if placeable == nil then
+			local v34 = self.sellingStation.getName and self.sellingStation:getName() or "unknown"
+			Logging.xmlWarning(xmlFile, "Unable to retrieve placeable of sellingStation \'%s\' for saving mowbale mission \'%s\' ", v34, key)
+			return
+		end
 		local index = g_currentMission.storageSystem:getPlaceableUnloadingStationIndex(placeable, self.sellingStation)
 		if index == nil then
 			local v36 = self.sellingStation.getName and self.sellingStation:getName() or (placeable.getName and placeable:getName() or "unknown")
 			Logging.xmlWarning(xmlFile, "Unable to retrieve unloading station index of sellingStation \'%s\' for saving mowbale mission \'%s\' ", v36, key)
-		else
-			xmlFile:setValue(hKey .. "#sellingStationPlaceableUniqueId", placeable:getUniqueId())
-			xmlFile:setValue(hKey .. "#unloadingStationIndex", index)
-			HarvestMission:superClass().saveToXMLFile(self, xmlFile, key)
+			return
 		end
+		xmlFile:setValue(hKey .. "#sellingStationPlaceableUniqueId", placeable:getUniqueId())
+		xmlFile:setValue(hKey .. "#unloadingStationIndex", index)
 	end
+	HarvestMission:superClass().saveToXMLFile(self, xmlFile, key)
 end
 function MowbaleMission:loadFromXMLFile(xmlFile, key)
 	if not HarvestMission:superClass().loadFromXMLFile(self, xmlFile, key) then

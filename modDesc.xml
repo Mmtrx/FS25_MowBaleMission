@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="94">
+<modDesc descVersion="97">
 	<author>Mmtrx</author>
-	<version>1.0.0.0</version>
+	<version>1.0.0.2</version>
 	<title>
 		<en>Mow Bale Contracts</en>
 		<de>Mäh- Und Press-Aufträge</de>
 		<fr>Contrats De Faucher Et Mise En Balles</fr>
-		<cz>Zakázky na sečení a balíky</cz>
 	</title>
 	<description>
 		<en>
@@ -27,14 +26,8 @@ Génère des tâches pour la fauche et la mise en balles combinées
 
 ]]>
 		</fr>
-		<cz>
-			<![CDATA[
-Kombinuje zakázky na sečení/balíkování
-
-]]>
-		</cz>
 	</description>
-	<iconFilename>icon_mowbaleMission.dds</iconFilename>
+	<iconFilename>icon_MowBaleMission.dds</iconFilename>
 	<multiplayer supported="true" />
 	<extraSourceFiles>
 		<sourceFile filename="mowbaleMission.lua" />
@@ -45,20 +38,23 @@ Kombinuje zakázky na sečení/balíkování
 	<l10n>
 		<text name="contract_field_mowbale_title">
 			<en>Mow &amp; bale</en>
-			<de>Mähen &amp; Pressen</de>
-			<fr>Faucher &amp; mise en balles</fr>
+			<de>Mäh &amp; Press</de>
+			<fr>Faucher &amp; Balles</fr>
+			<ru>Покос &amp; тюкование</ru>
 			<cz>Sečení &amp; balíky</cz>
 		</text>
 		<text name="contract_field_mowbale_hay">
 			<en>Mow the grass in the field. Then dry it with a tedder and bale it. Take the bales to the selling station.</en>
 			<de>Mähe das Gras, wende es und presse Heuballen daraus. Liefere die Ballen zur Verkaufsstation</de>
 			<fr>Fauchez l&apos;herbe dans le champ. Ensuite, asséchez-la à l&apos;aide d&apos;une faneuse et mettez-la en balle. Apportez les balles au point de vente indiqué.</fr>
+			<ru>Скосите траву на поле. Затем высушите ее ворошилкой и спрессуйте в тюки. Отвезите тюки на пункт продажи.</ru>
 			<cz>Posekejte trávu na poli. Poté ji vysušte obracečkou a svažte do balíků. Balíky odvezte do výkupu.</cz>
 		</text>
 		<text name="contract_field_mowbale_silage">
 			<en>Mow the grass in the field. Then bale the grass and wrap it to make silage bales. Take the bales to the selling station.</en>
 			<de>Mähe das Gras, presse und wickle Silageballen daraus. Liefere die Ballen zur Verkaufsstation.</de>
 			<fr>Fauchez l&apos;herbe dans le champ. Ensuite, mettez l&apos;herbe en balle et emballez-la pour faire des balles d&apos;ensilage. Apportez les balles au point de vente indiqué.</fr>
+			<ru>Скосите траву на поле. Затем тюкуйте траву и упаковывайте ее в тюки для силоса. Отвезите тюки на пункт продажи.</ru>
 			<cz>Posekejte trávu na poli. Poté trávu svažte do balíků a oviňte ji folií aby vznikla siláž. Balíky odvezte do výkupu.</cz>
 		</text>
 	</l10n>
