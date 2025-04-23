@@ -40,6 +40,7 @@ Génère des tâches pour la fauche et la mise en balles combinées
 			<en>Mow &amp; bale</en>
 			<de>Mäh &amp; Press</de>
 			<fr>Faucher &amp; Balles</fr>
+			<pl>Kosz &amp; Below</pl>
 			<ru>Покос &amp; тюкование</ru>
 			<cz>Sečení &amp; balíky</cz>
 		</text>
@@ -47,6 +48,7 @@ Génère des tâches pour la fauche et la mise en balles combinées
 			<en>Mow the grass in the field. Then dry it with a tedder and bale it. Take the bales to the selling station.</en>
 			<de>Mähe das Gras, wende es und presse Heuballen daraus. Liefere die Ballen zur Verkaufsstation</de>
 			<fr>Fauchez l&apos;herbe dans le champ. Ensuite, asséchez-la à l&apos;aide d&apos;une faneuse et mettez-la en balle. Apportez les balles au point de vente indiqué.</fr>
+			<pl>Skoś trawę na polu. Następnie wysusz ją za pomocą przetrząsacza i zbeluj. Zabierz bele do punktu sprzedaży.</pl>
 			<ru>Скосите траву на поле. Затем высушите ее ворошилкой и спрессуйте в тюки. Отвезите тюки на пункт продажи.</ru>
 			<cz>Posekejte trávu na poli. Poté ji vysušte obracečkou a svažte do balíků. Balíky odvezte do výkupu.</cz>
 		</text>
@@ -54,6 +56,7 @@ Génère des tâches pour la fauche et la mise en balles combinées
 			<en>Mow the grass in the field. Then bale the grass and wrap it to make silage bales. Take the bales to the selling station.</en>
 			<de>Mähe das Gras, presse und wickle Silageballen daraus. Liefere die Ballen zur Verkaufsstation.</de>
 			<fr>Fauchez l&apos;herbe dans le champ. Ensuite, mettez l&apos;herbe en balle et emballez-la pour faire des balles d&apos;ensilage. Apportez les balles au point de vente indiqué.</fr>
+			<pl>Skoś trawę na polu. Następnie zbeluj i owiń ją w bele kiszonki. Zabierz bele do punktu sprzedaży.</pl>
 			<ru>Скосите траву на поле. Затем тюкуйте траву и упаковывайте ее в тюки для силоса. Отвезите тюки на пункт продажи.</ru>
 			<cz>Posekejte trávu na poli. Poté trávu svažte do balíků a oviňte ji folií aby vznikla siláž. Balíky odvezte do výkupu.</cz>
 		</text>
