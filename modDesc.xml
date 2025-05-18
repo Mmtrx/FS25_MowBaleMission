@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="97">
 	<author>Mmtrx</author>
-	<version>1.0.0.2</version>
+	<version>1.0.0.3</version>
 	<title>
 		<en>Mow Bale Contracts</en>
 		<de>Mäh- Und Press-Aufträge</de>
@@ -12,18 +12,25 @@
 			<![CDATA[
 Implements combined mowing / baling contracts
 
+Changelog 1.0.0.3
+- fix #6 generate missions only on fully grown grass
+
 ]]>
 		</en>
 		<de>
 			<![CDATA[
 Erzeugt Aufträge zum kombinierten Mähen und Ballenpressen
 
+Changelog 1.0.0.3
+- fix #6 Verträge werden nur auf vollständig gewachsenen Grasfeldern erzeugt
 ]]>
 		</de>
 		<fr>
 			<![CDATA[
 Génère des tâches pour la fauche et la mise en balles combinées
 
+Changelog 1.0.0.3
+- fix #6 generate missions only on fully grown grass
 ]]>
 		</fr>
 	</description>

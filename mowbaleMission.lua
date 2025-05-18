@@ -7,6 +7,7 @@
 --  v1.0.0.0    15.02.2025  initial port from FS22
 --  v1.0.0.1    18.04.2025  add ru, cz transl. 
 --  v1.0.0.2    23.04.2025  #5 fix save when mission finished (no sellingStation) 
+--  v1.0.0.3    18.05.2025  #6 fix: avail only for fully grown grass 
 --=======================================================================================================
 MowbaleMission = {
 	NAME = "mowbaleMission",
@@ -247,7 +248,8 @@ function MowbaleMission.isAvailableForField(field, mission)
 			return false
 		end
 		local fruitDesc = g_fruitTypeManager:getFruitTypeByIndex(fruitIndex)
-		if not fruitDesc:getIsHarvestable(fieldState.growthState) then
+		-- grass must have the full growth state
+		if fieldState.growthState ~= fruitDesc.maxHarvestingGrowthState then
 			return false
 		end
 	end
