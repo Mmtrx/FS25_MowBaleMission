@@ -8,6 +8,7 @@
 --  v1.0.0.1    18.04.2025  add ru, cz transl. 
 --  v1.0.0.2    23.04.2025  #5 fix save when mission finished (no sellingStation) 
 --  v1.0.0.3    18.05.2025  #6 fix: avail only for fully grown grass 
+--	v1.0.0.4 	27.12.2025  fix vehicle variant for missions loaded from savegame
 --=======================================================================================================
 MowbaleMission = {
 	NAME = "mowbaleMission",
@@ -117,9 +118,7 @@ function MowbaleMission:saveToXMLFile(xmlFile, key)
 	HarvestMission:superClass().saveToXMLFile(self, xmlFile, key)
 end
 function MowbaleMission:loadFromXMLFile(xmlFile, key)
-	if not HarvestMission:superClass().loadFromXMLFile(self, xmlFile, key) then
-		return false
-	end
+	-- set fillTypeIndex (and thus: variant)
 	local hKey = string.format("%s.mowbale", key)
 	local name = xmlFile:getValue(hKey.."#fillType")
 	local ft = g_fillTypeManager:getFillTypeIndexByName(name)
@@ -130,6 +129,10 @@ function MowbaleMission:loadFromXMLFile(xmlFile, key)
 	self.fillTypeIndex = ft
 	if ft == FillType.SILAGE then  
 		self.description = g_i18n:getText("contract_field_mowbale_silage")
+	end
+
+	if not HarvestMission:superClass().loadFromXMLFile(self, xmlFile, key) then
+		return false
 	end
 	self.fruitTypeIndex = FruitType.GRASS
 	self.expectedLiters = xmlFile:getValue(hKey .. "#expectedLiters", self.expectedLiters)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="97">
+<modDesc descVersion="101">
 	<author>Mmtrx</author>
-	<version>1.0.0.3</version>
+	<version>1.0.0.4</version>
 	<title>
 		<en>Mow Bale Contracts</en>
 		<de>Mäh- Und Press-Aufträge</de>
@@ -11,6 +11,9 @@
 		<en>
 			<![CDATA[
 Implements combined mowing / baling contracts
+
+Changelog 1.0.0.4
+- fix vehicle variant for missions loaded from savegame
 
 Changelog 1.0.0.3
 - fix #6 generate missions only on fully grown grass
